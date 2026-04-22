@@ -1,0 +1,19 @@
+﻿"Nome do projeto","Website G4"
+"Intervalo de datas","04/21/2026 00:00 - 04/21/2026 23:59"
+
+
+"URL visitada é exatamente","https://g4business.com/"
+"URL visitada começa com","https://g4business.com/"
+
+"Métrica","Desempenho da URL"
+"","URL","Pontuação","LCP (Pintura com Maior Conteúdo)","Interação com a Próxima Pintura (INP)","CLS (Deslocamento de Layout Cumulativo)"
+"","https://g4business.com/fundamentos-g4-e-commerce","95","1.524","104","0"
+"","https://g4business.com/g4-lideranca-de-alta-performance-lp","94","2.204","104","0.023"
+"","https://forms.g4business.com/inscricao/g4-programas-presenciais/agendamento","93","1.6","128","0.002"
+"","https://g4business.com/g4-academia-de-lideranca","93","1.652","112","0.069"
+"","https://g4business.com/formacao-g4-vitalicio","92","2.024","128","0.002"
+"","https://g4business.com/materiais-gratuitos","90","1.344","120","0.114"
+"","https://g4business.com/g4-communities","90","2.664","112","0"
+"","https://g4business.com/g4-gestao-e-estrategia","89","2.572","144","0"
+"","https://g4business.com/g4-aceleracao-de-vendas","88","2.664","144","0.009"
+"","https://g4business.com/sobre","88","2.28","168","0.003"
