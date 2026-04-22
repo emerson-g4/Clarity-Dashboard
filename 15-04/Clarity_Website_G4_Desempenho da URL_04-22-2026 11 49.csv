@@ -1,0 +1,19 @@
+﻿"Nome do projeto","Website G4"
+"Intervalo de datas","04/15/2026 00:00 - 04/15/2026 23:59"
+
+
+"URL visitada é exatamente","https://g4business.com/"
+"URL visitada começa com","https://g4business.com/"
+
+"Métrica","Desempenho da URL"
+"","URL","Pontuação","LCP (Pintura com Maior Conteúdo)","Interação com a Próxima Pintura (INP)","CLS (Deslocamento de Layout Cumulativo)"
+"","https://forms.g4business.com/inscricao/g4-programas-presenciais/confirmar-telefone","94","1.316","120","0"
+"","https://g4business.com/mentoring","93","1.972","120","0.031"
+"","https://g4business.com/formacao-g4-lp","93","1.668","128","0.036"
+"","https://g4business.com/formacao-g4","92","1.732","136","0.033"
+"","https://g4business.com/materiais-gratuitos/piramide-de-maslow","91","2.632","104","0"
+"","https://forms.g4business.com/inscricao/g4-programas-presenciais","89.5","2.832","144","0.005"
+"","https://forms.g4business.com/inscricao/g4-programas-presenciais/obrigado","89","1.252","176","0"
+"","https://g4business.com/blog/profissionalizacao-de-empresas","88","1.948","184","0.001"
+"","https://g4business.com/g4-traction","88","0.74","192","0"
+"","https://g4business.com/g4-skills","84.5","4.212","128","0.02"
