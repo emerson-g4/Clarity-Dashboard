@@ -1,0 +1,19 @@
+﻿"Nome do projeto","Website G4"
+"Intervalo de datas","04/20/2026 00:00 - 04/20/2026 23:59"
+
+
+"URL visitada é exatamente","https://g4business.com/"
+"URL visitada começa com","https://g4business.com/"
+
+"Métrica","Desempenho da URL"
+"","URL","Pontuação","LCP (Pintura com Maior Conteúdo)","Interação com a Próxima Pintura (INP)","CLS (Deslocamento de Layout Cumulativo)"
+"","https://g4business.com/g4-customer-experience-lp","94","2.248","104","0"
+"","https://g4business.com/g4-gestao-de-pessoas","93","1.852","128","0"
+"","https://forms.g4business.com/inscricao/g4-programas-presenciais/agendamento","92","1.616","144","0.01"
+"","https://g4business.com/g4-tools","92","1.676","136","0.016"
+"","https://g4business.com/g4-gestao-e-estrategia","86","2.904","144","0"
+"","https://g4business.com/blog","84.33333333333333","4.792","168","0.015"
+"","https://g4business.com/contato","83","1.712","256","0.024"
+"","https://g4business.com/biografias/maria-isabel-antonini","81.33333333333333","1.672","120","0.303"
+"","https://g4business.com/blog/crescimento-organico-e-inorganico","75","2.38","360","0.007"
+"","https://g4business.com/","74.07692307692308","3.712","504","0.032"
