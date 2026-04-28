@@ -62,8 +62,8 @@ async function showMonthOverview(month, btn) {
     }
     const allData = STATE.loadedMonths[month];
     // Atualizar header
-    document.getElementById('dashTitle').textContent = `Microsoft Clarity — g4business.com`;
-    document.getElementById('dashSub').textContent   = month;
+    const sub = document.getElementById('dashSub');
+    if (sub) sub.textContent = month;
 
     renderMonth(content, month, allData);
     STATE.activeMonth = month;
@@ -80,7 +80,8 @@ async function showDay(day, btn) {
 
   try {
     const data = await loadDay(day);
-    document.getElementById('dashSub').textContent = day + '/2026';
+    const sub = document.getElementById('dashSub');
+    if (sub) sub.textContent = day + '/2026';
     renderDay(content, day, data);
     STATE.activeView = 'day-' + day.replace('/', '');
   } catch (err) {
@@ -91,7 +92,8 @@ async function showDay(day, btn) {
 function showCompare(btn) {
   setActiveBtn(btn);
   const content = document.getElementById('mainContent');
-  document.getElementById('dashSub').textContent = 'Comparação';
+  const sub = document.getElementById('dashSub');
+  if (sub) sub.textContent = 'Comparação';
   renderCompare(content);
   STATE.activeView = 'compare';
 }
