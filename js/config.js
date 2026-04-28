@@ -55,27 +55,6 @@ const C = {
   bg:       '#1a1d27',
 };
 
-const KPI_TIPS = {
-  'Score Performance': 'Nota geral de performance (0–100). Acima de 80 é bom, abaixo de 70 precisa atenção.',
-  'LCP':  'Largest Contentful Paint — tempo até o maior elemento aparecer. Meta: abaixo de 2,5s.',
-  'INP':  'Interaction to Next Paint — velocidade de resposta a cliques. Meta: abaixo de 200ms.',
-  'CLS':  'Cumulative Layout Shift — quanto a página treme ao carregar. Meta: abaixo de 0,1.',
-  'Bots': 'Acessos automatizados (robôs). Alto volume pode distorcer as métricas reais.',
-  'Sessões Totais':  'Total de acessos ao site, incluindo humanos e bots.',
-  'Sessões Humanas': 'Acessos reais de pessoas, excluindo tráfego automatizado.',
-  'Rolagem Média':   'Profundidade média de rolagem — até onde os usuários chegam na página.',
-  'Scroll':          'Profundidade média de rolagem — até onde os usuários chegam na página.',
-  'Páginas/Sessão':  'Quantas páginas cada visita acessa em média.',
-  'Tempo Ativo':     'Tempo em que o usuário estava ativamente interagindo com a página.',
-  'Rage Click':      'Usuário clicou várias vezes no mesmo lugar — sinal de frustração.',
-  'Dead Click':      'Clique em elemento que não reage — parece clicável mas não faz nada.',
-};
-
-function tipIcon(label) {
-  const tip = KPI_TIPS[label] || Object.entries(KPI_TIPS).find(([k]) => label.includes(k))?.[1] || '';
-  return tip ? `<span class="tip-icon" data-tip="${tip.replace(/"/g, '&quot;')}">ⓘ</span>` : '';
-}
-
 const CHART_DEFAULTS = {
   responsive: true,
   maintainAspectRatio: false,
