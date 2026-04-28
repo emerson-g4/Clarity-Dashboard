@@ -63,3 +63,13 @@
   .rec-item .rec-title { font-weight: 700; font-size: 14px; margin-bottom: 4px; }
   .rec-item .rec-body { color: var(--muted); font-size: 13px; line-height: 1.5; }
   .rec-item .rec-meta { font-size: 11px; color: var(--muted); margin-top: 6px; }
+
+  /* ── Dynamic nav ─────────────────────────────────── */
+  .tab-nav { align-items: stretch; flex-wrap: nowrap; }
+  .nav-group { display: flex; flex-direction: column; position: relative; }
+  .nav-month-btn { display: flex; align-items: center; gap: 4px; }
+  .nav-arrow { font-size: 10px; opacity: .7; }
+  .nav-days { flex-direction: column; position: absolute; top: 100%; left: 0; background: var(--card); border: 1px solid var(--border); border-radius: 0 0 8px 8px; z-index: 100; min-width: 80px; padding: 4px 0; box-shadow: 0 8px 24px rgba(0,0,0,.4); }
+  .nav-days button { padding: 8px 16px; border-bottom: none; border-radius: 0; font-size: 12px; }
+  .nav-days button:hover { background: #1e2233; color: var(--text); }
+  .loading-msg { text-align: center; padding: 60px; color: var(--muted); font-size: 15px; }
