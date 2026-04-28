@@ -64,38 +64,40 @@
   .rec-item .rec-body { color: var(--muted); font-size: 13px; line-height: 1.5; }
   .rec-item .rec-meta { font-size: 11px; color: var(--muted); margin-top: 6px; }
 
-  /* ── Dynamic nav ─────────────────────────────────── */
+  /* ── Nav ─────────────────────────────────────────── */
   .tab-nav { align-items: stretch; flex-wrap: nowrap; }
-  .nav-group { display: flex; flex-direction: column; position: relative; }
-  .nav-month-btn { display: flex; align-items: center; gap: 4px; }
+  .nav-month-btn { font-size: 13px; }
   .nav-arrow { font-size: 10px; opacity: .7; }
-  .nav-days { flex-direction: column; position: absolute; top: 100%; left: 0; background: var(--card); border: 1px solid var(--border); border-radius: 0 0 8px 8px; z-index: 100; min-width: 80px; padding: 4px 0; box-shadow: 0 8px 24px rgba(0,0,0,.4); }
-  .nav-days button { padding: 8px 16px; border-bottom: none; border-radius: 0; font-size: 12px; }
-  .nav-days button:hover { background: #1e2233; color: var(--text); }
   .loading-msg { text-align: center; padding: 60px; color: var(--muted); font-size: 15px; }
+
+  /* ── Barra de controles ──────────────────────────── */
+  .ctrl-bar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; padding: 10px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; }
+  .ctrl-left { display: flex; align-items: center; gap: 10px; }
+  .ctrl-right { display: flex; align-items: center; gap: 8px; }
+  .ctrl-label { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .ctrl-bar select { background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 13px; cursor: pointer; }
+  .ctrl-bar select:focus { outline: none; border-color: var(--primary); }
+  .ctrl-cmp-btn { display: flex; align-items: center; gap: 6px; background: none; border: 1px solid var(--border); border-radius: 7px; color: var(--muted); padding: 6px 14px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .2s; white-space: nowrap; }
+  .ctrl-cmp-btn:hover { color: var(--text); border-color: var(--primary); }
+  .ctrl-cmp-btn.active { color: var(--primary); border-color: var(--primary); background: rgba(79,142,247,.1); }
+
+  /* ── Painel de Comparação ────────────────────────── */
+  .cmp-panel { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 18px; margin-bottom: 24px; }
+  .cmp-tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid var(--border); padding-bottom: 12px; }
+  .cmp-tab { background: none; border: 1px solid var(--border); border-radius: 6px; color: var(--muted); padding: 6px 16px; font-size: 13px; font-weight: 600; cursor: pointer; transition: all .2s; }
+  .cmp-tab.active { color: var(--primary); border-color: var(--primary); background: rgba(79,142,247,.1); }
+  .cmp-controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+  .cmp-controls label { color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 5px; }
+  .cmp-controls select { background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 5px 8px; font-size: 13px; cursor: pointer; }
+  .cmp-run-btn { background: var(--primary); color: #fff; border: none; border-radius: 6px; padding: 7px 18px; font-size: 13px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+  .cmp-run-btn:hover { opacity: .85; }
+  .cmp-checks { display: flex; flex-wrap: wrap; gap: 10px; border-left: 1px solid var(--border); padding-left: 14px; margin-left: 4px; }
+  .cmp-checks label { color: var(--muted); font-size: 12px; display: flex; align-items: center; gap: 4px; cursor: pointer; }
+  .cmp-checks input[type=checkbox] { accent-color: var(--primary); cursor: pointer; }
+  .cmp-result { margin-top: 20px; }
+  .cmp-title { font-size: 14px; font-weight: 700; color: var(--text); margin-bottom: 16px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
 
   /* ── Tooltip ─────────────────────────────────────── */
   .tip-icon { display: inline-block; font-size: 11px; color: var(--muted); cursor: help; margin-left: 4px; opacity: .7; vertical-align: middle; }
   .tip-icon:hover { opacity: 1; color: var(--primary); }
   .tipbox { position: absolute; z-index: 9999; background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 12px; line-height: 1.5; max-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.5); pointer-events: none; display: none; }
-
-  /* ── Seletor de dia ──────────────────────────────── */
-  .day-selector-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; padding: 12px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; }
-  .day-selector-label { font-size: 12px; color: var(--muted); white-space: nowrap; }
-  .day-selector-bar select { background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 13px; cursor: pointer; }
-  .day-selector-bar select:focus { outline: none; border-color: var(--primary); }
-
-  /* ── Comparação inline ───────────────────────────── */
-  .compare-section { margin-top: 28px; }
-  .compare-toggle { display: flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 18px; color: var(--text); font-size: 14px; font-weight: 600; cursor: pointer; width: 100%; text-align: left; transition: background .2s; }
-  .compare-toggle:hover { background: #1e2233; }
-  .compare-body { margin-top: 12px; }
-  /* Botão comparar inline na barra do seletor */
-  .selector-divider { width: 1px; height: 20px; background: var(--border); margin: 0 4px; }
-  .compare-toggle-inline { background: none; border: 1px solid var(--border); border-radius: 6px; color: var(--muted); padding: 5px 12px; font-size: 12px; font-weight: 600; cursor: pointer; display: flex; align-items: center; gap: 5px; transition: all .2s; white-space: nowrap; }
-  .compare-toggle-inline:hover { color: var(--text); border-color: var(--primary); }
-  .compare-toggle-inline.active-inline { color: var(--primary); border-color: var(--primary); background: rgba(79,142,247,.08); }
-  .compare-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-  @media(max-width:900px) { .compare-panels { grid-template-columns: 1fr; } }
-  .cmp-btn { background: var(--primary); color: #fff; border: none; border-radius: 6px; padding: 7px 16px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; }
-  .cmp-btn:hover { opacity: .85; }
