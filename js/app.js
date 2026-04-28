@@ -78,7 +78,12 @@ async function showMonthOverview(month, btn) {
 function renderMonthWithSelector(container, month, allData) {
   const days = Object.keys(allData);
 
-  // Cabeçalho com seletor de dia
+  // Cabeçalho com seletor de dia + botão comparar na mesma barra
+  const allDays = Object.keys(GIDS);
+  const allMonths = Object.keys(MONTH_MAP);
+  const dayOptions = allDays.map(d => `<option value="${d}">${d}</option>`).join('');
+  const monthOptions = allMonths.map(m => `<option value="${m}">${m}</option>`).join('');
+
   const selectorHTML = `
     <div class="day-selector-bar">
       <span class="day-selector-label">Visualizar:</span>
@@ -86,19 +91,10 @@ function renderMonthWithSelector(container, month, allData) {
         <option value="__all__">Todos os dias (visão geral)</option>
         ${days.map(d => `<option value="${d}">${d}</option>`).join('')}
       </select>
+      <div class="selector-divider"></div>
+      <button class="compare-toggle-inline" onclick="toggleCompare(this)">⚖️ Comparar <span class="nav-arrow">▾</span></button>
     </div>
-  `;
-
-  // Seção comparação colapsável
-  const allDays = Object.keys(GIDS);
-  const allMonths = Object.keys(MONTH_MAP);
-  const dayOptions = allDays.map(d => `<option value="${d}">${d}</option>`).join('');
-  const monthOptions = allMonths.map(m => `<option value="${m}">${m}</option>`).join('');
-
-  const compareHTML = `
-    <div class="compare-section">
-      <button class="compare-toggle" onclick="toggleCompare(this)">⚖️ Comparar <span class="nav-arrow">▾</span></button>
-      <div class="compare-body" id="compareBody" style="display:none">
+    <div class="compare-body" id="compareBody" style="display:none">
         <div class="compare-panels">
           <div class="chart-card">
             <h3>Comparar Meses</h3>
@@ -127,12 +123,11 @@ function renderMonthWithSelector(container, month, allData) {
             <div id="cmp-day-result" style="margin-top:16px"></div>
           </div>
         </div>
-      </div>
     </div>
   `;
 
   // Área de conteúdo principal
-  container.innerHTML = selectorHTML + '<div id="monthMainContent"></div>' + compareHTML;
+  container.innerHTML = selectorHTML + '<div id="monthMainContent"></div>';
 
   // Pré-selecionar segundo mês/dia diferente
   const selMesB = document.getElementById('cmp-mesB');
@@ -172,7 +167,9 @@ function toggleCompare(btn) {
   if (!body) return;
   const isOpen = body.style.display !== 'none';
   body.style.display = isOpen ? 'none' : 'block';
-  btn.querySelector('.nav-arrow').textContent = isOpen ? '▾' : '▴';
+  const arrow = btn.querySelector('.nav-arrow');
+  if (arrow) arrow.textContent = isOpen ? '▾' : '▴';
+  btn.classList.toggle('active-inline', !isOpen);
 }
 
 // ── Tooltips DOM ──────────────────────────────────────────────────────
