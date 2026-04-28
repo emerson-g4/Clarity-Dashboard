@@ -7,22 +7,6 @@ const STATE = {
   loadedMonths: {},
 };
 
-// ── Tooltips ──────────────────────────────────────────────────────────
-const KPI_TIPS = {
-  'Score Performance': 'Nota geral de performance (0–100). Acima de 80 é bom.',
-  'LCP':  'Largest Contentful Paint — tempo até o maior elemento aparecer. Meta: < 2,5s.',
-  'INP':  'Interaction to Next Paint — velocidade de resposta a cliques. Meta: < 200ms.',
-  'CLS':  'Cumulative Layout Shift — quanto a página treme ao carregar. Meta: < 0,1.',
-  'Bots': 'Acessos automatizados. Alto volume distorce métricas reais.',
-  'Sessões Totais':  'Total de acessos, incluindo humanos e bots.',
-  'Sessões Humanas': 'Acessos reais de pessoas, sem tráfego automatizado.',
-  'Rolagem Média':   'Até onde os usuários chegam na página em média.',
-  'Páginas/Sessão':  'Quantas páginas cada visita acessa em média.',
-  'Tempo Ativo':     'Tempo em que o usuário interagiu ativamente com a página.',
-  'Rage Click':      'Cliques repetidos no mesmo lugar — sinal de frustração.',
-  'Dead Click':      'Clique em elemento que não reage.',
-};
-
 // ── Nav ───────────────────────────────────────────────────────────────
 function buildNav() {
   const nav = document.getElementById('mainNav');
