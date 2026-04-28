@@ -73,3 +73,24 @@
   .nav-days button { padding: 8px 16px; border-bottom: none; border-radius: 0; font-size: 12px; }
   .nav-days button:hover { background: #1e2233; color: var(--text); }
   .loading-msg { text-align: center; padding: 60px; color: var(--muted); font-size: 15px; }
+
+  /* ── Tooltip ─────────────────────────────────────── */
+  .tip-icon { display: inline-block; font-size: 11px; color: var(--muted); cursor: help; margin-left: 4px; opacity: .7; vertical-align: middle; }
+  .tip-icon:hover { opacity: 1; color: var(--primary); }
+  .tipbox { position: absolute; z-index: 9999; background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 12px; line-height: 1.5; max-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.5); pointer-events: none; display: none; }
+
+  /* ── Seletor de dia ──────────────────────────────── */
+  .day-selector-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 20px; padding: 12px 16px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; }
+  .day-selector-label { font-size: 12px; color: var(--muted); white-space: nowrap; }
+  .day-selector-bar select { background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px; font-size: 13px; cursor: pointer; }
+  .day-selector-bar select:focus { outline: none; border-color: var(--primary); }
+
+  /* ── Comparação inline ───────────────────────────── */
+  .compare-section { margin-top: 28px; }
+  .compare-toggle { display: flex; align-items: center; gap: 8px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 18px; color: var(--text); font-size: 14px; font-weight: 600; cursor: pointer; width: 100%; text-align: left; transition: background .2s; }
+  .compare-toggle:hover { background: #1e2233; }
+  .compare-body { margin-top: 12px; }
+  .compare-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  @media(max-width:900px) { .compare-panels { grid-template-columns: 1fr; } }
+  .cmp-btn { background: var(--primary); color: #fff; border: none; border-radius: 6px; padding: 7px 16px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; }
+  .cmp-btn:hover { opacity: .85; }

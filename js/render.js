@@ -16,8 +16,29 @@ function perfBar(val, max) {
   return Math.min(100, (val / max) * 100).toFixed(0);
 }
 
+const KPI_TIPS = {
+  'Score Performance': 'Nota geral de performance (0–100). Acima de 80 é bom, abaixo de 70 precisa atenção.',
+  'LCP':  'Largest Contentful Paint — tempo até o maior elemento aparecer. Meta: abaixo de 2,5s.',
+  'INP':  'Interaction to Next Paint — velocidade de resposta a cliques. Meta: abaixo de 200ms.',
+  'CLS':  'Cumulative Layout Shift — quanto a página treme ao carregar. Meta: abaixo de 0,1.',
+  'Bots': 'Acessos automatizados (robôs). Alto volume pode distorcer as métricas reais.',
+  'Sessões Totais':  'Total de acessos ao site, incluindo humanos e bots.',
+  'Sessões Humanas': 'Acessos reais de pessoas, excluindo tráfego automatizado.',
+  'Rolagem Média':   'Profundidade média de rolagem — até onde os usuários chegam na página.',
+  'Scroll':          'Profundidade média de rolagem — até onde os usuários chegam na página.',
+  'Páginas/Sessão':  'Quantas páginas cada visita acessa em média.',
+  'Tempo Ativo':     'Tempo em que o usuário estava ativamente interagindo com a página.',
+  'Rage Click':      'Usuário clicou várias vezes no mesmo lugar — sinal de frustração.',
+  'Dead Click':      'Clique em elemento que não reage — parece clicável mas não faz nada.',
+};
+
+function tipIcon(label) {
+  const tip = KPI_TIPS[label] || Object.entries(KPI_TIPS).find(([k]) => label.includes(k))?.[1] || '';
+  return tip ? `<span class="tip-icon" data-tip="${tip.replace(/"/g, '&quot;')}">ⓘ</span>` : '';
+}
+
 function kpi(cls, label, value, sub = '') {
-  return `<div class="kpi ${cls}"><div class="label">${label}</div><div class="value">${value}</div>${sub ? `<div class="sub">${sub}</div>` : ''}</div>`;
+  return `<div class="kpi ${cls}"><div class="label">${label}${tipIcon(label)}</div><div class="value">${value}</div>${sub ? `<div class="sub">${sub}</div>` : ''}</div>`;
 }
 
 function section(title) {
@@ -197,15 +218,15 @@ function renderDay(container, day, d) {
         <h3>LCP / INP / CLS</h3>
         <div style="padding:8px 0">
           <div style="margin-bottom:12px">
-            <div style="display:flex;justify-content:space-between"><span>LCP</span><span style="color:${lcpC};font-weight:700">${d.performance.lcp}</span></div>
+            <div style="display:flex;justify-content:space-between"><span>LCP <span class="tip-icon" data-tip="Largest Contentful Paint — tempo até o maior elemento aparecer. Meta: &lt; 2,5s">ⓘ</span></span><span style="color:${lcpC};font-weight:700">${d.performance.lcp}</span></div>
             <div class="perf-bar"><div class="perf-bar-fill" style="width:${perfBar(lcpV, 5)}%;background:${lcpC}"></div></div>
           </div>
           <div style="margin-bottom:12px">
-            <div style="display:flex;justify-content:space-between"><span>INP</span><span style="color:${inpC};font-weight:700">${d.performance.inp}</span></div>
+            <div style="display:flex;justify-content:space-between"><span>INP <span class="tip-icon" data-tip="Interaction to Next Paint — velocidade de resposta a cliques. Meta: &lt; 200ms">ⓘ</span></span><span style="color:${inpC};font-weight:700">${d.performance.inp}</span></div>
             <div class="perf-bar"><div class="perf-bar-fill" style="width:${perfBar(inpV, 600)}%;background:${inpC}"></div></div>
           </div>
           <div>
-            <div style="display:flex;justify-content:space-between"><span>CLS</span><span style="color:${clsC};font-weight:700">${d.performance.cls}</span></div>
+            <div style="display:flex;justify-content:space-between"><span>CLS <span class="tip-icon" data-tip="Cumulative Layout Shift — quanto a página treme ao carregar. Meta: &lt; 0,1">ⓘ</span></span><span style="color:${clsC};font-weight:700">${d.performance.cls}</span></div>
             <div class="perf-bar"><div class="perf-bar-fill" style="width:${perfBar(clsV, 0.6)}%;background:${clsC}"></div></div>
           </div>
         </div>
