@@ -5,7 +5,7 @@
 const SHEET_ID = '10M_2Ne7UDvwezJVJEoWnxThJFvZWKmqpel-vlNOUemM';
 
 // Registre aqui cada dia novo: 'DD/MM': 'GID'
-// Para adicionar maio: '01/05': 'GID_AQUI', etc.
+// Dias com GID '' usam apenas o JSON local (data/YYYY-MM.json)
 const GIDS = {
   '14/04': '1656633445',
   '15/04': '896716369',
@@ -23,6 +23,12 @@ const GIDS = {
   '27/04': '548092468',
   '28/04': '957133510',
   '29/04': '242169593',
+  '30/04': '540939018',
+  '01/05': '1236957814',
+  '02/05': '130847216',
+  '03/05': '606738682',
+  '04/05': '216993241',
+  '05/05': '415793073',
 };
 
 // Agrupa dias por mês automaticamente

@@ -1,6 +1,6 @@
 {
   "month": "Abril 2026",
-  "generated": "2026-05-04T15:15:28.778Z",
+  "generated": "2026-05-06T14:13:52.365Z",
   "days": {
     "14/04": {
       "sessions": {
@@ -7687,6 +7687,782 @@
       "jsErrors": [],
       "attentionCelular": null,
       "attentionPC": null
+    },
+    "30/04": {
+      "sessions": {
+        "total": 859,
+        "bots": 42,
+        "botsPct": "4.89%",
+        "human": 817,
+        "humanPct": "95.11%"
+      },
+      "users": {
+        "unique": 752,
+        "newU": 626,
+        "newPct": "72.88%",
+        "returned": 234,
+        "returnedPct": "27.24%"
+      },
+      "engagement": {
+        "pagesPerSession": 0,
+        "scrollDepth": "",
+        "activeTime": 104,
+        "totalTime": 350
+      },
+      "insights": [
+        {
+          "name": "Cliques contínuos",
+          "sessions": 4,
+          "pct": "0,47%"
+        },
+        {
+          "name": "Clique inativo",
+          "sessions": 166,
+          "pct": "19,32%"
+        },
+        {
+          "name": "Rolagem excessiva",
+          "sessions": 0,
+          "pct": "0%"
+        },
+        {
+          "name": "Clique com o botão direito do mouse",
+          "sessions": 136,
+          "pct": "15,83%"
+        }
+      ],
+      "smartEvents": [
+        {
+          "name": "Clique de saída",
+          "sessions": 164,
+          "pct": "19,09%"
+        },
+        {
+          "name": "Mostrar mais",
+          "sessions": 48,
+          "pct": "5,59%"
+        },
+        {
+          "name": "Aproveitar Oportunidade",
+          "sessions": 34,
+          "pct": "3,96%"
+        },
+        {
+          "name": "Finalizar compra",
+          "sessions": 24,
+          "pct": "2,79%"
+        },
+        {
+          "name": "Enviar formulário",
+          "sessions": 8,
+          "pct": "0,93%"
+        }
+      ],
+      "devices": [
+        {
+          "name": "PC",
+          "sessions": 516,
+          "pct": "60,85%"
+        },
+        {
+          "name": "Mobile",
+          "sessions": 328,
+          "pct": "38,68%"
+        },
+        {
+          "name": "Tablet",
+          "sessions": 4,
+          "pct": "0,47%"
+        }
+      ],
+      "os": [
+        {
+          "name": "Windows",
+          "sessions": 369,
+          "pct": "42,96%"
+        },
+        {
+          "name": "iOS",
+          "sessions": 207,
+          "pct": "24,10%"
+        },
+        {
+          "name": "MacOS",
+          "sessions": 151,
+          "pct": "17,58%"
+        },
+        {
+          "name": "Android",
+          "sessions": 125,
+          "pct": "14,55%"
+        },
+        {
+          "name": "Linux",
+          "sessions": 6,
+          "pct": "0,70%"
+        },
+        {
+          "name": "ChromeOS",
+          "sessions": 1,
+          "pct": "0,12%"
+        }
+      ],
+      "countries": [
+        {
+          "name": "Brazil",
+          "sessions": 811,
+          "pct": "94,41%"
+        },
+        {
+          "name": "United States",
+          "sessions": 16,
+          "pct": "1,86%"
+        },
+        {
+          "name": "Portugal",
+          "sessions": 10,
+          "pct": "1,16%"
+        },
+        {
+          "name": "Chile",
+          "sessions": 6,
+          "pct": "0,70%"
+        },
+        {
+          "name": "Australia",
+          "sessions": 4,
+          "pct": "0,47%"
+        },
+        {
+          "name": "United Kingdom",
+          "sessions": 4,
+          "pct": "0,47%"
+        },
+        {
+          "name": "Angola",
+          "sessions": 2,
+          "pct": "0,23%"
+        },
+        {
+          "name": "Japan",
+          "sessions": 2,
+          "pct": "0,23%"
+        },
+        {
+          "name": "China",
+          "sessions": 1,
+          "pct": "0,12%"
+        },
+        {
+          "name": "Ecuador",
+          "sessions": 1,
+          "pct": "0,12%"
+        },
+        {
+          "name": "Hong Kong SAR",
+          "sessions": 1,
+          "pct": "0,12%"
+        },
+        {
+          "name": "United Arab Emirates",
+          "sessions": 1,
+          "pct": "0,12%"
+        }
+      ],
+      "channels": [
+        {
+          "name": "OrganicSearch",
+          "sessions": 425
+        },
+        {
+          "name": "Direct",
+          "sessions": 325
+        },
+        {
+          "name": "Other",
+          "sessions": 225
+        },
+        {
+          "name": "Referral",
+          "sessions": 219
+        },
+        {
+          "name": "PaidSearch",
+          "sessions": 31
+        },
+        {
+          "name": "Display",
+          "sessions": 5
+        },
+        {
+          "name": "AIPlatform",
+          "sessions": 2
+        },
+        {
+          "name": "Email",
+          "sessions": 2
+        }
+      ],
+      "referrers": [
+        {
+          "name": "www.google.com",
+          "sessions": 399
+        },
+        {
+          "name": "g4business.com",
+          "sessions": 343
+        },
+        {
+          "name": "instagram.com",
+          "sessions": 131
+        },
+        {
+          "name": "www.bing.com",
+          "sessions": 29
+        },
+        {
+          "name": "l.wl.co",
+          "sessions": 13
+        },
+        {
+          "name": "portal.g4educacao.com",
+          "sessions": 9
+        },
+        {
+          "name": "g4educacao.com",
+          "sessions": 7
+        },
+        {
+          "name": "self-checkout.g4educacao.com",
+          "sessions": 7
+        },
+        {
+          "name": "forms.g4business.com",
+          "sessions": 6
+        },
+        {
+          "name": "l.instagram.com",
+          "sessions": 5
+        },
+        {
+          "name": "br.search.yahoo.com",
+          "sessions": 4
+        },
+        {
+          "name": "m.facebook.com",
+          "sessions": 4
+        }
+      ],
+      "sources": [
+        {
+          "name": "Google",
+          "sessions": 404
+        },
+        {
+          "name": "google",
+          "sessions": 404
+        },
+        {
+          "name": "Direct",
+          "sessions": 327
+        },
+        {
+          "name": "g4business.com",
+          "sessions": 322
+        },
+        {
+          "name": "forms.g4business.com",
+          "sessions": 5
+        },
+        {
+          "name": "Instagram",
+          "sessions": 134
+        },
+        {
+          "name": "instagram.com",
+          "sessions": 129
+        },
+        {
+          "name": "instagram",
+          "sessions": 4
+        },
+        {
+          "name": "l.instagram.com",
+          "sessions": 1
+        },
+        {
+          "name": "g4business.com",
+          "sessions": 46
+        },
+        {
+          "name": "Bing",
+          "sessions": 29
+        },
+        {
+          "name": "bing",
+          "sessions": 29
+        },
+        {
+          "name": "website",
+          "sessions": 14
+        },
+        {
+          "name": "l.wl.co",
+          "sessions": 13
+        },
+        {
+          "name": "portal.g4educacao.com",
+          "sessions": 9
+        },
+        {
+          "name": "Facebook",
+          "sessions": 8
+        },
+        {
+          "name": "facebook",
+          "sessions": 4
+        },
+        {
+          "name": "m.facebook.com",
+          "sessions": 4
+        },
+        {
+          "name": "g4educacao.com",
+          "sessions": 7
+        },
+        {
+          "name": "self-checkout.g4educacao.com",
+          "sessions": 7
+        },
+        {
+          "name": "YouTube",
+          "sessions": 4
+        },
+        {
+          "name": "youtube",
+          "sessions": 4
+        }
+      ],
+      "campaigns": [
+        {
+          "name": "adsgg_g4_bau074_lgen_g4-institucional_bofu_form-g4-google_leads_branding_site-g4",
+          "sessions": 16
+        },
+        {
+          "name": "aniv26",
+          "sessions": 14
+        },
+        {
+          "name": "adsgg_g4_bau418_sc_g4-ecomm_bofu_on-selfcheckout-outros_pmax_captacao_ecommerce",
+          "sessions": 10
+        },
+        {
+          "name": "always-on",
+          "sessions": 6
+        },
+        {
+          "name": "adsgg_g4_bau419_lgen_programas-presenciais_bofu_form-g4-google_leads_branding_lp",
+          "sessions": 4
+        },
+        {
+          "name": "adsfb_g4_bau161_sc_fg4_bofu_on-selfcheckout-fg4_venda_captacao_lp",
+          "sessions": 2
+        },
+        {
+          "name": "adsfb_g4_bau472_sc_fg4-30d_bofu_selfcheckout-fg4_venda_oferta-unica_lp",
+          "sessions": 2
+        },
+        {
+          "name": "adsgg_g4_bau081_lgen_g4-mkt-e-growth_bofu_form-g4-google_leads_branding_form-lp-dinamico",
+          "sessions": 2
+        },
+        {
+          "name": "fg4vitalicio",
+          "sessions": 2
+        },
+        {
+          "name": "youtube",
+          "sessions": 2
+        },
+        {
+          "name": "adsgg_g4_bau206_lgen_gestao-e-estrategia_bofu_form-g4-google_leads_branding_lp-institucional_pmax",
+          "sessions": 1
+        },
+        {
+          "name": "canal-g4",
+          "sessions": 1
+        }
+      ],
+      "pages": [
+        {
+          "url": "https://g4business.com/",
+          "sessions": 859
+        },
+        {
+          "url": "https://g4business.com/g4-learning",
+          "sessions": 105
+        },
+        {
+          "url": "https://g4business.com/g4-gestao-e-estrategia",
+          "sessions": 76
+        },
+        {
+          "url": "https://forms.g4business.com/inscricao/g4-programas-presenciais",
+          "sessions": 52
+        },
+        {
+          "url": "https://g4business.com/formacao-g4",
+          "sessions": 29
+        },
+        {
+          "url": "https://g4business.com/aniversario-g4",
+          "sessions": 27
+        },
+        {
+          "url": "https://g4business.com/g4-tools",
+          "sessions": 23
+        },
+        {
+          "url": "https://g4business.com/biografias-mentores-g4",
+          "sessions": 18
+        },
+        {
+          "url": "https://g4business.com/blog",
+          "sessions": 14
+        },
+        {
+          "url": "https://g4business.com/g4-sales",
+          "sessions": 14
+        },
+        {
+          "url": "https://g4business.com/formacao-g4-lp",
+          "sessions": 13
+        },
+        {
+          "url": "https://g4business.com/g4-club",
+          "sessions": 13
+        }
+      ],
+      "performance": {
+        "score": 65.93069307,
+        "lcp": "7.884s",
+        "inp": "224ms",
+        "cls": "0.036s"
+      },
+      "perfUrls": [
+        {
+          "url": "https://g4business.com/aniversario-g4",
+          "score": 95,
+          "lcp": "95",
+          "inp": "95",
+          "cls": "864"
+        },
+        {
+          "url": "https://g4business.com/biografias-mentores-g4",
+          "score": 94,
+          "lcp": "94",
+          "inp": "94",
+          "cls": "1.052"
+        },
+        {
+          "url": "https://g4business.com/carreiras",
+          "score": 93,
+          "lcp": "93",
+          "inp": "93",
+          "cls": "1.844"
+        },
+        {
+          "url": "https://g4business.com/carreiras/comunicacao",
+          "score": 79,
+          "lcp": "79",
+          "inp": "79",
+          "cls": "3.936"
+        },
+        {
+          "url": "https://g4business.com/g4-gestao-de-pessoas",
+          "score": 79,
+          "lcp": "79",
+          "inp": "79",
+          "cls": "2.68"
+        },
+        {
+          "url": "https://forms.g4business.com/inscricao/g4-programas-presenciais",
+          "score": 76,
+          "lcp": "76",
+          "inp": "76",
+          "cls": "624"
+        },
+        {
+          "url": "https://g4business.com/g4-gestao-e-estrategia",
+          "score": 73.5,
+          "lcp": "73,5",
+          "inp": "73.5",
+          "cls": "6.376"
+        },
+        {
+          "url": "https://g4business.com/g4-learning",
+          "score": 73.25,
+          "lcp": "73,25",
+          "inp": "73.25",
+          "cls": "5.956"
+        },
+        {
+          "url": "https://g4business.com/g4-oratoria-empresarial",
+          "score": 68,
+          "lcp": "68",
+          "inp": "68",
+          "cls": "5.508"
+        },
+        {
+          "url": "https://g4business.com/",
+          "score": 67.51785714,
+          "lcp": "67,51785714",
+          "inp": "6.751.785.714.285.710",
+          "cls": "7.236"
+        }
+      ],
+      "jsErrors": [
+        {
+          "error": "total de erros do JavaScript",
+          "sessions": 46,
+          "pct": ""
+        },
+        {
+          "error": "wp is not defined",
+          "sessions": 18,
+          "pct": "39,13%"
+        },
+        {
+          "error": "cannot read properties of undefined (reading 'autoplay')",
+          "sessions": 14,
+          "pct": "30,43%"
+        },
+        {
+          "error": "cannot read properties of null (reading 'getattribute')",
+          "sessions": 4,
+          "pct": "8,70%"
+        },
+        {
+          "error": "can't access property autoplay, this.swiper is undefined",
+          "sessions": 2,
+          "pct": "4,35%"
+        },
+        {
+          "error": "can't find variable: wp",
+          "sessions": 2,
+          "pct": "4,35%"
+        }
+      ],
+      "attentionCelular": {
+        "pageviews": 367,
+        "data": [
+          {
+            "depth": "5%",
+            "avgTime": "00:00:05",
+            "pct": "3.90%"
+          },
+          {
+            "depth": "10%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "15%",
+            "avgTime": "00:00:00",
+            "pct": "0.08%"
+          },
+          {
+            "depth": "20%",
+            "avgTime": "00:00:04",
+            "pct": "3.20%"
+          },
+          {
+            "depth": "25%",
+            "avgTime": "00:00:05",
+            "pct": "3.56%"
+          },
+          {
+            "depth": "30%",
+            "avgTime": "00:00:01",
+            "pct": "1.14%"
+          },
+          {
+            "depth": "35%",
+            "avgTime": "00:00:06",
+            "pct": "4.33%"
+          },
+          {
+            "depth": "40%",
+            "avgTime": "00:00:07",
+            "pct": "5.09%"
+          },
+          {
+            "depth": "45%",
+            "avgTime": "00:01:47",
+            "pct": "69.93%"
+          },
+          {
+            "depth": "50%",
+            "avgTime": "00:00:04",
+            "pct": "2.69%"
+          },
+          {
+            "depth": "55%",
+            "avgTime": "00:00:04",
+            "pct": "3.02%"
+          },
+          {
+            "depth": "60%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "65%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "70%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "75%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "80%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "85%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "90%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "95%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "100%",
+            "avgTime": "00:00:04",
+            "pct": "3.07%"
+          }
+        ]
+      },
+      "attentionPC": {
+        "pageviews": 632,
+        "data": [
+          {
+            "depth": "5%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "10%",
+            "avgTime": "00:00:01",
+            "pct": "1.33%"
+          },
+          {
+            "depth": "15%",
+            "avgTime": "00:00:03",
+            "pct": "2.58%"
+          },
+          {
+            "depth": "20%",
+            "avgTime": "00:01:22",
+            "pct": "68.57%"
+          },
+          {
+            "depth": "25%",
+            "avgTime": "00:00:00",
+            "pct": "0.18%"
+          },
+          {
+            "depth": "30%",
+            "avgTime": "00:00:32",
+            "pct": "27.35%"
+          },
+          {
+            "depth": "35%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "40%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "45%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "50%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "55%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "60%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "65%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "70%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "75%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "80%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "85%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "90%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "95%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          },
+          {
+            "depth": "100%",
+            "avgTime": "00:00:00",
+            "pct": "0%"
+          }
+        ]
+      }
     }
   }
 }

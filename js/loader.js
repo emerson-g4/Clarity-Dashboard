@@ -205,6 +205,26 @@ function parseDaySheet(rows) {
 
 // Cache de dados já carregados (evita refetch)
 const _cache = {};
+const _monthJsonCache = {};
+
+// Tenta carregar JSON pré-gerado (data/YYYY-MM.json); fallback para Sheets
+async function loadMonthJson(yearMonth) {
+  if (_monthJsonCache[yearMonth]) return _monthJsonCache[yearMonth];
+  try {
+    const res = await fetch(`./data/${yearMonth}.json`);
+    if (!res.ok) return null;
+    const json = await res.json();
+    _monthJsonCache[yearMonth] = json.days || {};
+    return _monthJsonCache[yearMonth];
+  } catch { return null; }
+}
+
+// Converte label de mês para YYYY-MM (ex: "Abril 2026" → "2026-04")
+function monthLabelToKey(label) {
+  const NAMES = { 'Janeiro':'01','Fevereiro':'02','Março':'03','Abril':'04','Maio':'05','Junho':'06','Julho':'07','Agosto':'08','Setembro':'09','Outubro':'10','Novembro':'11','Dezembro':'12' };
+  const [name, year] = label.split(' ');
+  return NAMES[name] ? `${year}-${NAMES[name]}` : null;
+}
 
 async function loadDay(day) {
   if (_cache[day]) return _cache[day];
@@ -214,6 +234,17 @@ async function loadDay(day) {
 }
 
 async function loadMonth(monthLabel) {
+  // Tenta JSON local primeiro
+  const key = monthLabelToKey(monthLabel);
+  if (key) {
+    const json = await loadMonthJson(key);
+    if (json && Object.keys(json).length > 0) {
+      // Preenche cache de dias também
+      Object.entries(json).forEach(([d, data]) => { if (!_cache[d]) _cache[d] = data; });
+      return json;
+    }
+  }
+  // Fallback: carrega via Sheets
   const days = MONTH_MAP[monthLabel] || [];
   const results = await Promise.all(days.map(d => loadDay(d).then(data => ({ day: d, data }))));
   const map = {};
