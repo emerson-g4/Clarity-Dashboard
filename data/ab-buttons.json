@@ -1,0 +1,523 @@
+{
+  "generated": "2026-05-14T17:49:59.021Z",
+  "config": {
+    "changeDate": "15/05/2026",
+    "phaseA_label": "Antes (copy original)",
+    "phaseB_label": "Depois (copy novo)"
+  },
+  "days": {
+    "14/04/2026": {
+      "date": "14/04/2026",
+      "aplique_se_pc": 34,
+      "aplique_se_mobile": 11,
+      "acessar_pc": 6,
+      "acessar_mobile": 15,
+      "total_clicks_pc": 679,
+      "total_clicks_mobile": 520
+    },
+    "15/04/2026": {
+      "date": "15/04/2026",
+      "aplique_se_pc": 68,
+      "aplique_se_mobile": 14,
+      "acessar_pc": 8,
+      "acessar_mobile": 12,
+      "total_clicks_pc": 973,
+      "total_clicks_mobile": 456
+    },
+    "16/04/2026": {
+      "date": "16/04/2026",
+      "aplique_se_pc": 74,
+      "aplique_se_mobile": 10,
+      "acessar_pc": 5,
+      "acessar_mobile": 10,
+      "total_clicks_pc": 1278,
+      "total_clicks_mobile": 423
+    },
+    "17/04/2026": {
+      "date": "17/04/2026",
+      "aplique_se_pc": 0,
+      "aplique_se_mobile": 13,
+      "acessar_pc": 0,
+      "acessar_mobile": 9,
+      "total_clicks_pc": 0,
+      "total_clicks_mobile": 394
+    },
+    "18/04/2026": {
+      "date": "18/04/2026",
+      "aplique_se_pc": 26,
+      "aplique_se_mobile": 1,
+      "acessar_pc": 3,
+      "acessar_mobile": 1,
+      "total_clicks_pc": 293,
+      "total_clicks_mobile": 383
+    },
+    "19/04/2026": {
+      "date": "19/04/2026",
+      "aplique_se_pc": 22,
+      "aplique_se_mobile": 18,
+      "acessar_pc": 3,
+      "acessar_mobile": 12,
+      "total_clicks_pc": 193,
+      "total_clicks_mobile": 459
+    },
+    "20/04/2026": {
+      "date": "20/04/2026",
+      "aplique_se_pc": 54,
+      "aplique_se_mobile": 17,
+      "acessar_pc": 6,
+      "acessar_mobile": 7,
+      "total_clicks_pc": 910,
+      "total_clicks_mobile": 337
+    },
+    "21/04/2026": {
+      "date": "21/04/2026",
+      "aplique_se_pc": 39,
+      "aplique_se_mobile": 25,
+      "acessar_pc": 4,
+      "acessar_mobile": 6,
+      "total_clicks_pc": 506,
+      "total_clicks_mobile": 454
+    },
+    "22/04/2026": {
+      "date": "22/04/2026",
+      "aplique_se_pc": 91,
+      "aplique_se_mobile": 23,
+      "acessar_pc": 15,
+      "acessar_mobile": 4,
+      "total_clicks_pc": 1027,
+      "total_clicks_mobile": 437
+    },
+    "23/04/2026": {
+      "date": "23/04/2026",
+      "aplique_se_pc": 58,
+      "aplique_se_mobile": 2,
+      "acessar_pc": 8,
+      "acessar_mobile": 7,
+      "total_clicks_pc": 1285,
+      "total_clicks_mobile": 519
+    },
+    "24/04/2026": {
+      "date": "24/04/2026",
+      "aplique_se_pc": 66,
+      "aplique_se_mobile": 11,
+      "acessar_pc": 7,
+      "acessar_mobile": 9,
+      "total_clicks_pc": 1447,
+      "total_clicks_mobile": 552
+    },
+    "25/04/2026": {
+      "date": "25/04/2026",
+      "aplique_se_pc": 29,
+      "aplique_se_mobile": 13,
+      "acessar_pc": 4,
+      "acessar_mobile": 14,
+      "total_clicks_pc": 506,
+      "total_clicks_mobile": 527
+    },
+    "26/04/2026": {
+      "date": "26/04/2026",
+      "aplique_se_pc": 42,
+      "aplique_se_mobile": 14,
+      "acessar_pc": 7,
+      "acessar_mobile": 12,
+      "total_clicks_pc": 426,
+      "total_clicks_mobile": 612
+    },
+    "27/04/2026": {
+      "date": "27/04/2026",
+      "aplique_se_pc": 79,
+      "aplique_se_mobile": 14,
+      "acessar_pc": 4,
+      "acessar_mobile": 11,
+      "total_clicks_pc": 1568,
+      "total_clicks_mobile": 549
+    },
+    "28/04/2026": {
+      "date": "28/04/2026",
+      "aplique_se_pc": 82,
+      "aplique_se_mobile": 2,
+      "acessar_pc": 7,
+      "acessar_mobile": 4,
+      "total_clicks_pc": 1703,
+      "total_clicks_mobile": 555
+    },
+    "29/04/2026": {
+      "date": "29/04/2026",
+      "aplique_se_pc": 35,
+      "aplique_se_mobile": 2,
+      "acessar_pc": 5,
+      "acessar_mobile": 0,
+      "total_clicks_pc": 1265,
+      "total_clicks_mobile": 641
+    },
+    "30/04/2026": {
+      "date": "30/04/2026",
+      "aplique_se_pc": 59,
+      "aplique_se_mobile": 1,
+      "acessar_pc": 11,
+      "acessar_mobile": 7,
+      "total_clicks_pc": 1023,
+      "total_clicks_mobile": 521
+    },
+    "01/05/2026": {
+      "date": "01/05/2026",
+      "aplique_se_pc": 26,
+      "aplique_se_mobile": 1,
+      "acessar_pc": 1,
+      "acessar_mobile": 7,
+      "total_clicks_pc": 398,
+      "total_clicks_mobile": 342
+    },
+    "02/05/2026": {
+      "date": "02/05/2026",
+      "aplique_se_pc": 12,
+      "aplique_se_mobile": 9,
+      "acessar_pc": 3,
+      "acessar_mobile": 8,
+      "total_clicks_pc": 251,
+      "total_clicks_mobile": 278
+    },
+    "03/05/2026": {
+      "date": "03/05/2026",
+      "aplique_se_pc": 23,
+      "aplique_se_mobile": 17,
+      "acessar_pc": 3,
+      "acessar_mobile": 13,
+      "total_clicks_pc": 287,
+      "total_clicks_mobile": 392
+    },
+    "04/05/2026": {
+      "date": "04/05/2026",
+      "aplique_se_pc": 93,
+      "aplique_se_mobile": 9,
+      "acessar_pc": 22,
+      "acessar_mobile": 5,
+      "total_clicks_pc": 1252,
+      "total_clicks_mobile": 490
+    },
+    "05/05/2026": {
+      "date": "05/05/2026",
+      "aplique_se_pc": 70,
+      "aplique_se_mobile": 1,
+      "acessar_pc": 13,
+      "acessar_mobile": 8,
+      "total_clicks_pc": 1072,
+      "total_clicks_mobile": 398
+    },
+    "06/05/2026": {
+      "date": "06/05/2026",
+      "aplique_se_pc": 125,
+      "aplique_se_mobile": 6,
+      "acessar_pc": 6,
+      "acessar_mobile": 8,
+      "total_clicks_pc": 1307,
+      "total_clicks_mobile": 301
+    },
+    "07/05/2026": {
+      "date": "07/05/2026",
+      "aplique_se_pc": 125,
+      "aplique_se_mobile": 59,
+      "acessar_pc": 6,
+      "acessar_mobile": 13,
+      "total_clicks_pc": 1307,
+      "total_clicks_mobile": 1058
+    },
+    "08/05/2026": {
+      "date": "08/05/2026",
+      "aplique_se_pc": 69,
+      "aplique_se_mobile": 10,
+      "acessar_pc": 8,
+      "acessar_mobile": 10,
+      "total_clicks_pc": 918,
+      "total_clicks_mobile": 257
+    },
+    "09/05/2026": {
+      "date": "09/05/2026",
+      "aplique_se_pc": 0,
+      "aplique_se_mobile": 2,
+      "acessar_pc": 2,
+      "acessar_mobile": 2,
+      "total_clicks_pc": 352,
+      "total_clicks_mobile": 355
+    },
+    "10/05/2026": {
+      "date": "10/05/2026",
+      "aplique_se_pc": 18,
+      "aplique_se_mobile": 11,
+      "acessar_pc": 2,
+      "acessar_mobile": 7,
+      "total_clicks_pc": 251,
+      "total_clicks_mobile": 244
+    }
+  },
+  "phaseA": {
+    "label": "Antes (copy original)",
+    "totals": {
+      "aplique_se": 1735,
+      "acessar": 390,
+      "total_clicks": 34931,
+      "days": 27,
+      "aplique_se_ctr": "4.97",
+      "acessar_ctr": "1.12",
+      "ratio": "4.45"
+    },
+    "days": {
+      "14/04/2026": {
+        "date": "14/04/2026",
+        "aplique_se_pc": 34,
+        "aplique_se_mobile": 11,
+        "acessar_pc": 6,
+        "acessar_mobile": 15,
+        "total_clicks_pc": 679,
+        "total_clicks_mobile": 520
+      },
+      "15/04/2026": {
+        "date": "15/04/2026",
+        "aplique_se_pc": 68,
+        "aplique_se_mobile": 14,
+        "acessar_pc": 8,
+        "acessar_mobile": 12,
+        "total_clicks_pc": 973,
+        "total_clicks_mobile": 456
+      },
+      "16/04/2026": {
+        "date": "16/04/2026",
+        "aplique_se_pc": 74,
+        "aplique_se_mobile": 10,
+        "acessar_pc": 5,
+        "acessar_mobile": 10,
+        "total_clicks_pc": 1278,
+        "total_clicks_mobile": 423
+      },
+      "17/04/2026": {
+        "date": "17/04/2026",
+        "aplique_se_pc": 0,
+        "aplique_se_mobile": 13,
+        "acessar_pc": 0,
+        "acessar_mobile": 9,
+        "total_clicks_pc": 0,
+        "total_clicks_mobile": 394
+      },
+      "18/04/2026": {
+        "date": "18/04/2026",
+        "aplique_se_pc": 26,
+        "aplique_se_mobile": 1,
+        "acessar_pc": 3,
+        "acessar_mobile": 1,
+        "total_clicks_pc": 293,
+        "total_clicks_mobile": 383
+      },
+      "19/04/2026": {
+        "date": "19/04/2026",
+        "aplique_se_pc": 22,
+        "aplique_se_mobile": 18,
+        "acessar_pc": 3,
+        "acessar_mobile": 12,
+        "total_clicks_pc": 193,
+        "total_clicks_mobile": 459
+      },
+      "20/04/2026": {
+        "date": "20/04/2026",
+        "aplique_se_pc": 54,
+        "aplique_se_mobile": 17,
+        "acessar_pc": 6,
+        "acessar_mobile": 7,
+        "total_clicks_pc": 910,
+        "total_clicks_mobile": 337
+      },
+      "21/04/2026": {
+        "date": "21/04/2026",
+        "aplique_se_pc": 39,
+        "aplique_se_mobile": 25,
+        "acessar_pc": 4,
+        "acessar_mobile": 6,
+        "total_clicks_pc": 506,
+        "total_clicks_mobile": 454
+      },
+      "22/04/2026": {
+        "date": "22/04/2026",
+        "aplique_se_pc": 91,
+        "aplique_se_mobile": 23,
+        "acessar_pc": 15,
+        "acessar_mobile": 4,
+        "total_clicks_pc": 1027,
+        "total_clicks_mobile": 437
+      },
+      "23/04/2026": {
+        "date": "23/04/2026",
+        "aplique_se_pc": 58,
+        "aplique_se_mobile": 2,
+        "acessar_pc": 8,
+        "acessar_mobile": 7,
+        "total_clicks_pc": 1285,
+        "total_clicks_mobile": 519
+      },
+      "24/04/2026": {
+        "date": "24/04/2026",
+        "aplique_se_pc": 66,
+        "aplique_se_mobile": 11,
+        "acessar_pc": 7,
+        "acessar_mobile": 9,
+        "total_clicks_pc": 1447,
+        "total_clicks_mobile": 552
+      },
+      "25/04/2026": {
+        "date": "25/04/2026",
+        "aplique_se_pc": 29,
+        "aplique_se_mobile": 13,
+        "acessar_pc": 4,
+        "acessar_mobile": 14,
+        "total_clicks_pc": 506,
+        "total_clicks_mobile": 527
+      },
+      "26/04/2026": {
+        "date": "26/04/2026",
+        "aplique_se_pc": 42,
+        "aplique_se_mobile": 14,
+        "acessar_pc": 7,
+        "acessar_mobile": 12,
+        "total_clicks_pc": 426,
+        "total_clicks_mobile": 612
+      },
+      "27/04/2026": {
+        "date": "27/04/2026",
+        "aplique_se_pc": 79,
+        "aplique_se_mobile": 14,
+        "acessar_pc": 4,
+        "acessar_mobile": 11,
+        "total_clicks_pc": 1568,
+        "total_clicks_mobile": 549
+      },
+      "28/04/2026": {
+        "date": "28/04/2026",
+        "aplique_se_pc": 82,
+        "aplique_se_mobile": 2,
+        "acessar_pc": 7,
+        "acessar_mobile": 4,
+        "total_clicks_pc": 1703,
+        "total_clicks_mobile": 555
+      },
+      "29/04/2026": {
+        "date": "29/04/2026",
+        "aplique_se_pc": 35,
+        "aplique_se_mobile": 2,
+        "acessar_pc": 5,
+        "acessar_mobile": 0,
+        "total_clicks_pc": 1265,
+        "total_clicks_mobile": 641
+      },
+      "30/04/2026": {
+        "date": "30/04/2026",
+        "aplique_se_pc": 59,
+        "aplique_se_mobile": 1,
+        "acessar_pc": 11,
+        "acessar_mobile": 7,
+        "total_clicks_pc": 1023,
+        "total_clicks_mobile": 521
+      },
+      "01/05/2026": {
+        "date": "01/05/2026",
+        "aplique_se_pc": 26,
+        "aplique_se_mobile": 1,
+        "acessar_pc": 1,
+        "acessar_mobile": 7,
+        "total_clicks_pc": 398,
+        "total_clicks_mobile": 342
+      },
+      "02/05/2026": {
+        "date": "02/05/2026",
+        "aplique_se_pc": 12,
+        "aplique_se_mobile": 9,
+        "acessar_pc": 3,
+        "acessar_mobile": 8,
+        "total_clicks_pc": 251,
+        "total_clicks_mobile": 278
+      },
+      "03/05/2026": {
+        "date": "03/05/2026",
+        "aplique_se_pc": 23,
+        "aplique_se_mobile": 17,
+        "acessar_pc": 3,
+        "acessar_mobile": 13,
+        "total_clicks_pc": 287,
+        "total_clicks_mobile": 392
+      },
+      "04/05/2026": {
+        "date": "04/05/2026",
+        "aplique_se_pc": 93,
+        "aplique_se_mobile": 9,
+        "acessar_pc": 22,
+        "acessar_mobile": 5,
+        "total_clicks_pc": 1252,
+        "total_clicks_mobile": 490
+      },
+      "05/05/2026": {
+        "date": "05/05/2026",
+        "aplique_se_pc": 70,
+        "aplique_se_mobile": 1,
+        "acessar_pc": 13,
+        "acessar_mobile": 8,
+        "total_clicks_pc": 1072,
+        "total_clicks_mobile": 398
+      },
+      "06/05/2026": {
+        "date": "06/05/2026",
+        "aplique_se_pc": 125,
+        "aplique_se_mobile": 6,
+        "acessar_pc": 6,
+        "acessar_mobile": 8,
+        "total_clicks_pc": 1307,
+        "total_clicks_mobile": 301
+      },
+      "07/05/2026": {
+        "date": "07/05/2026",
+        "aplique_se_pc": 125,
+        "aplique_se_mobile": 59,
+        "acessar_pc": 6,
+        "acessar_mobile": 13,
+        "total_clicks_pc": 1307,
+        "total_clicks_mobile": 1058
+      },
+      "08/05/2026": {
+        "date": "08/05/2026",
+        "aplique_se_pc": 69,
+        "aplique_se_mobile": 10,
+        "acessar_pc": 8,
+        "acessar_mobile": 10,
+        "total_clicks_pc": 918,
+        "total_clicks_mobile": 257
+      },
+      "09/05/2026": {
+        "date": "09/05/2026",
+        "aplique_se_pc": 0,
+        "aplique_se_mobile": 2,
+        "acessar_pc": 2,
+        "acessar_mobile": 2,
+        "total_clicks_pc": 352,
+        "total_clicks_mobile": 355
+      },
+      "10/05/2026": {
+        "date": "10/05/2026",
+        "aplique_se_pc": 18,
+        "aplique_se_mobile": 11,
+        "acessar_pc": 2,
+        "acessar_mobile": 7,
+        "total_clicks_pc": 251,
+        "total_clicks_mobile": 244
+      }
+    }
+  },
+  "phaseB": {
+    "label": "Depois (copy novo)",
+    "totals": {
+      "aplique_se": 0,
+      "acessar": 0,
+      "total_clicks": 0,
+      "days": 0,
+      "aplique_se_ctr": "0.00",
+      "acessar_ctr": "0.00",
+      "ratio": "N/A"
+    },
+    "days": {}
+  }
+}

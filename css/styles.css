@@ -101,3 +101,30 @@
   .tip-icon { display: inline-block; font-size: 11px; color: var(--muted); cursor: help; margin-left: 4px; opacity: .7; vertical-align: middle; }
   .tip-icon:hover { opacity: 1; color: var(--primary); }
   .tipbox { position: absolute; z-index: 9999; background: #252836; color: var(--text); border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; font-size: 12px; line-height: 1.5; max-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.5); pointer-events: none; display: none; }
+
+/* ── Teste A/B ───────────────────────────────────── */
+.ab-compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+@media(max-width:700px){ .ab-compare-grid { grid-template-columns: 1fr; } }
+.ab-phase-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 20px; }
+.ab-phase-card.phase-a { border-left: 3px solid #4f8ef7; }
+.ab-phase-card.phase-b { border-left: 3px solid #f39c12; }
+.ab-phase-card.phase-b-empty { opacity: .7; }
+.ab-phase-label { font-weight: 700; font-size: .95rem; margin-bottom: 4px; }
+.ab-phase-period { color: var(--muted); font-size: .78rem; margin-bottom: 16px; }
+.ab-metric-row { display: flex; gap: 20px; flex-wrap: wrap; }
+.ab-metric { display: flex; flex-direction: column; gap: 2px; min-width: 80px; }
+.ab-metric-label { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.ab-metric-value { font-size: 1.5rem; font-weight: 700; color: var(--text); line-height: 1.1; }
+.ab-metric-ctr { font-size: .78rem; color: var(--muted); }
+.ab-waiting { color: var(--muted); font-size: .85rem; padding: 20px 0; }
+.ab-delta { font-size: .78rem; font-weight: 600; margin-left: 4px; }
+.ab-delta.pos { color: #2ecc71; }
+.ab-delta.neg { color: #e74c3c; }
+.ab-badge { display: inline-block; font-size: .7rem; font-weight: 700; padding: 1px 7px; border-radius: 10px; }
+.ab-badge.a { background: rgba(79,142,247,.15); color: #4f8ef7; }
+.ab-badge.b { background: rgba(243,156,18,.15); color: #f39c12; }
+.ab-table { width: 100%; border-collapse: collapse; font-size: .84rem; }
+.ab-table th { padding: 8px 10px; text-align: left; color: var(--muted); font-weight: 600; border-bottom: 1px solid var(--border); white-space: nowrap; }
+.ab-table td { padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,.04); }
+.ab-table tr.phase-b-row td { background: rgba(243,156,18,.04); }
+.ab-table tr:hover td { background: rgba(255,255,255,.03); }

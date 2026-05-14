@@ -17,6 +17,7 @@ function buildNav() {
     const short = month.split(' ')[0].substring(0,3);
     html += `<button class="nav-month-btn" onclick="showMonthOverview('${month}',this)">${short}</button>`;
   });
+  html += `<button id="nav-ab" onclick="showABTest(this)" style="margin-left:auto;border-left:1px solid var(--border);padding-left:16px">🧪 Teste A/B</button>`;
   nav.innerHTML = html;
 }
 
